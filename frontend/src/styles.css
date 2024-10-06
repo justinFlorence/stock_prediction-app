@@ -1,0 +1,43 @@
+.App {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .company-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .company-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 220px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .company-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .company-card select,
+  .company-card button {
+    margin: 5px 0;
+    padding: 5px;
+    width: 100%;
+  }
+  
+  .prediction-result {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
